@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900');
+
+body{
+    font-size: 1vw;
+    margin: 0;
+}
+@media only screen and (max-width: 991px){
+    body{
+        font-size: 100%;
+    }
+}

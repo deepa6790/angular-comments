@@ -1,0 +1,35 @@
+<div class="title-bar">
+    <h2>Post {{counter}}</h2>
+  </div>
+<div class="container">
+  <div class="card-list">
+    <div class="card" *ngFor="let comment of commentLists">
+      <div class="col count">
+        <h6>{{comment.id}}</h6>
+      </div>
+      <div class="col content">
+          <div class="content-group">
+              <p class="label">Name</p>
+              <h3 class="name">{{comment.name}}</h3>
+          </div>
+          <div class="content-group">
+              <p class="label">Email</p>
+              <p class="email">{{comment.email}}</p>
+          </div>
+          <div class="content-group">
+              <p class="label">Comment</p>
+              <p class="comments">{{comment.body}}</p>  
+          </div>    
+      </div>
+     
+    </div>
+  </div> 
+</div>
+<div class="navigation">
+  <div class="prev">
+      <button (click)="previous()">Previous</button>
+  </div>
+  <div class="next">
+      <button (click)="next()">Next</button>
+  </div>
+</div>

@@ -1,0 +1,101 @@
+.container{
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 50px;
+}
+.title-bar{
+    background: #f1f1f1;
+    padding: 10px 0;
+    box-shadow: 1px 2px 3px #00000082;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.title-bar h2{
+    color:#000;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.card-list{
+    margin: 18px 0;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767px){
+    .card-list{
+    grid-template-columns: 100%;
+    }
+}
+.card{
+    margin: 15px 0;
+    position: relative;
+}
+.card .count{
+    position: absolute;
+    text-align: center;
+    right: 0;
+}
+.card .count h6{
+    border: 1px solid #000;
+    padding: 5px 12px;
+    background: #f1f1f1;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.card .content{
+    background-color: #f1f1f1;
+    padding: 12px 10px;
+ }
+ .card .content .name{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+ }
+ .content .content-group p{
+    font-size: 1em;
+     margin: 0;
+ }
+ .content .content-group {
+    margin: 14px 0;
+ }
+ .content .content-group .label{
+    font-size: 1.2em;
+    border-bottom: 1px solid #000;
+    width: max-content;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+ }
+ .navigation .prev{
+    position: fixed;
+    top: 45%;
+    left: 0;
+ }
+ .navigation .next{
+    position: fixed;
+    top: 45%;
+    right: 0;
+ }
+ .navigation button{
+    font-size: 1.2em;
+    border: none;
+    padding: 9px 15px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .navigation button:hover{
+    background-color: #000;
+    color:#fff;
+ }
+ .navigation button:focus{
+    outline:none;
+ }
