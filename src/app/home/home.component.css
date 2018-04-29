@@ -55,6 +55,8 @@
 .card .content{
     background-color: #f1f1f1;
     padding: 12px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #DFDFDF;
  }
  .card .content .name{
     font-size: 1.4em;
