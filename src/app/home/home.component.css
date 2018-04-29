@@ -72,7 +72,8 @@
  }
  .content .content-group .label{
     font-size: 1.2em;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #2590db;
+    color:#2590db;
     width: max-content;
     padding-bottom: 5px;
     margin-bottom: 4px;
