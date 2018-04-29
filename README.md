@@ -1,6 +1,6 @@
 # AngularTask
 
-Displayed all the comments in the UI from the endpoint provided. To view the project in local machine you should have node js installed. Download the github repository, and run 'ng-serve-o'. This opens the application in the local machine.
+Displayed all the comments in the UI from the endpoint provided. To view the project in local machine you should have node js installed. Download the github repository, and run `ng serve-o`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4. 
 
