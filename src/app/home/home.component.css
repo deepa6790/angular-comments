@@ -7,7 +7,7 @@
     top: 50px;
 }
 .title-bar{
-    background: #f1f1f1;
+    background: #5870cb;
     padding: 10px 0;
     box-shadow: 1px 2px 3px #00000082;
     text-align: center;
@@ -17,7 +17,7 @@
     z-index: 2;
 }
 .title-bar h2{
-    color:#000;
+    color:#fff;
     margin: 0;
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
@@ -44,7 +44,8 @@
     right: 0;
 }
 .card .count h6{
-    border: 1px solid #000;
+    border: 1px solid #0043ca;
+    color:#0043ca;
     padding: 5px 12px;
     background: #f1f1f1;
     margin: 0 auto;
@@ -53,11 +54,16 @@
     font-weight: 600;
 }
 .card .content{
-    background-color: #f1f1f1;
+    background-color: #bdd6de;
     padding: 12px 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-    border-bottom: 1px solid #DFDFDF;
+    border-bottom: 1px solid #85f5b5;
  }
+ .card .content:hover{
+
+     border-bottom: 1px solid #1ce674;
+     box-shadow: 10px 10px 3px -5px rgba(0,0,0,0.75);
+  }
  .card .content .name{
     font-size: 1.4em;
     font-weight: bold;
@@ -72,8 +78,8 @@
  }
  .content .content-group .label{
     font-size: 1.2em;
-    border-bottom: 1px solid #2590db;
-    color:#2590db;
+    border-bottom: 1px solid #0043ca;
+    color:#0043ca;
     width: max-content;
     padding-bottom: 5px;
     margin-bottom: 4px;
